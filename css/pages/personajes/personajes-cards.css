@@ -1,0 +1,62 @@
+.personajes-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F2F5F7;
+}
+
+.personaje-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #0F1A2B;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.personaje-card:hover{
+    border: 2px solid #493800bb;
+}
+
+.personaje-card__img{
+    width: 250px;
+    border: 1px solid #0F1A2B;
+    border-radius: 50px;
+}
+
+.personaje-card__title{
+    font-weight: bold;
+    font-family: 'Caesar Dressing', sans-serif;
+}
+
+.personaje-card__house{
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.personaje-card__abilities{
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.personaje-card__link{
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0F1A2B;
+    transition: 0.3s, color 0.3s;
+}
+
+.personaje-card__link:hover{
+    background-color: #850000bb;
+}
