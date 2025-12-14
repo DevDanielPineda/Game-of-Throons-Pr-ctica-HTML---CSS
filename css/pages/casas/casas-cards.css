@@ -1,0 +1,56 @@
+.houses-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F2F5F7;
+}
+
+.house-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #0F1A2B;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.house-card:hover{
+    border: 2px solid #493800bb;
+}
+
+.house-card__img{
+    width: 250px;
+    border: 1px solid #0F1A2B;
+    border-radius: 50px;
+}
+
+.house-card__title{
+    font-weight: bold;
+    font-family: 'Caesar Dressing', sans-serif;
+}
+
+.house-card__motto{
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.house-card__link{
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0F1A2B;
+    transition: 0.3s, color 0.3s;
+}
+
+.house-card__link:hover{
+    background-color: #850000bb;
+}
