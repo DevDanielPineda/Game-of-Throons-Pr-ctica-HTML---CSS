@@ -1,0 +1,48 @@
+.header{
+    background-color: #111111;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.header__nav-link{
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Fredoka', sans-serif;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.header__nav-link:hover{
+    color: #fff170bb;
+}
+
+.header__nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;           
+    height: 1px;        
+    background-color: #fff170bb;
+    transition: width 0.3s;
+}
+
+.header__nav-link:hover::after {
+    width: 100%;
+}
