@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/components/header.css">
     <link rel="stylesheet" href="../css/pages/contacto/contacto-encabezado.css">
+    <link rel="stylesheet" href="../css/pages/contacto/contacto-formulario.css">
     <link rel="stylesheet" href="../css/components/footer.css">
     <title>Contacto | Game Of Throons</title>
 </head>
@@ -58,7 +59,45 @@
                 No importa si vienes como noble, viajero o guerrero sin estandarte: mientras tu mensaje sea honesto, tendrá su lugar en los archivos del reino.</p>
 
             </section>
-        
+            
+            <section class="contact-form">
+
+                <h2 class="contact-form__title">Enviar un mensaje al Reino</h2>
+
+                <form class="contact-form__form" action="#">
+
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="name">Nombre del remitente</label>
+                        <input class="contact-form__input" type="text" id="name" name="name" placeholder="Escribe nombre" required>
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="email">Email del remitente</label>
+                        <input class="contact-form__input" type="email" id="email" name="email" placeholder="usuario@correo.com" required>
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label class="contact-form__label" for="message">Mensaje</label>
+                        <textarea class="contact-form__textarea" name="message" id="message" placeholder="Escribe tu mensaje al reino..." required></textarea>
+                    </div>
+
+                    <div class="contact-form__terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label class="contact-form__terms-label" for="terms">
+                            Al enviar este mensaje, aceptas las crónicas de
+                            <a class="contact-form__terms-link" href="/pages/privacidad.html">Privacidad</a> y
+                            <a class="contact-form__terms-link" href="/pages/seguridad.html">Seguridad</a> del reino.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="contact-form__submit">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </section>
+
         </div>
 
     </main>
