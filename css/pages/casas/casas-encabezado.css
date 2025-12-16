@@ -7,6 +7,24 @@
     padding: 2rem;
 }
 
+.houses__back-link{
+    align-self: self-start;
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #0F1A2B;
+    background-color: white;
+    transition: 0.3s, color 0.3s;
+}
+
+.houses__back-link:hover{
+    background-color: #f2f2f2bb;
+}
+
 .houses-intro__title{
     color: white;
     margin: 10px;

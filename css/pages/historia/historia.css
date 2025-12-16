@@ -4,6 +4,24 @@
     align-items: center;
 }
 
+.history__back-link{
+    align-self: self-start;
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #0F1A2B;
+    background-color: white;
+    transition: 0.3s, color 0.3s;
+}
+
+.history__back-link:hover{
+    background-color: #f2f2f2bb;
+}
+
 .history__block-blue{
     display: flex;
     flex-direction: column;

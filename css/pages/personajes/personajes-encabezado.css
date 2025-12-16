@@ -7,6 +7,24 @@
     background-color: #0F1A2B;
 }
 
+.personajes__back-link{
+    align-self: self-start;
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #0F1A2B;
+    background-color: white;
+    transition: 0.3s, color 0.3s;
+}
+
+.personajes__back-link:hover{
+    background-color: #f2f2f2bb;
+}
+
 .personajes-intro__title{
     color: white;
     font-weight: bold;
