@@ -4,8 +4,6 @@
     align-items: center;
     background-color: #0F1A2B;
     padding: 2rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     gap: 30px;
 }
 
@@ -30,7 +28,6 @@
 .casa__title {
     text-align: center;
     color: white;
-    margin: 10px;
     font-weight: bold;
     font-size: 50px;
     font-family: 'Caesar Dressing', sans-serif;  
@@ -38,7 +35,6 @@
 
 .casa__container-img {
     display: flex;
-    width: 100%;
     gap: 50px;
     justify-content: center;
 }
@@ -53,7 +49,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+
 }
 
 .casa__block-subtitle {

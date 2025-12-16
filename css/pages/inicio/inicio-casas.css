@@ -4,7 +4,7 @@
     align-items:center;
     background-color: #0F1A2B;
     padding: 30px;
-    gap: 30px;
+    gap: 2rem;
 }
 
 .inicio__houses-block{
@@ -25,8 +25,6 @@
 .inicio__houses-description{
     color: white;
     font-size: 20px;
-    width: 90%;
-    margin: 10px;
     text-align: start;
     line-height: 1.5;
     font-family: 'Baloo 2', sans-serif;
