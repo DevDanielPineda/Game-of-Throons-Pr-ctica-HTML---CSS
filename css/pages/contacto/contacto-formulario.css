@@ -10,13 +10,14 @@
 .contact-form__title{
     color: #0F1A2B;
     font-weight: bold;
-    font-size: 50px;
+    font-size: clamp(30px, 5vw, 50px);
     font-family: 'Caesar Dressing', sans-serif;  
     text-align: center;
 }
 
 .contact-form__img{
-    width: 320px;
+    width: 90%;
+    max-width: 320px;
     border: 5px solid #0F1A2B;
     border-radius: 50px;
 }   
@@ -24,12 +25,12 @@
 .contact-form__form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
     border: 2px solid black;
     border-radius: 20px;
-    padding: 50px 20px;
-    width: 700px;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 700px;
     background-color: #0F1A2B;
 }
 
@@ -41,8 +42,9 @@
 .contact-form__field{
     display: flex;
     flex-direction: column;
-    align-items: start;
     gap: 5px;
+    width: 100%;
+
 }
 
 .contact-form__label{
@@ -52,7 +54,6 @@
 }
 
 .contact-form__input{
-    width: 600px;
     height: 40px;
     border-radius: 5px;
     padding: 0px 15px;
@@ -60,7 +61,6 @@
 }
 
 .contact-form__textarea{
-    width: 600px;
     border-radius: 5px;
     padding: 15px;
     resize: none;
@@ -69,9 +69,14 @@
     Font-family: 'Fredoka', sans-serif;
 }
 
+.contact-form__terms{
+    align-self: center;
+}
+
 .contact-form__terms-label{
     font-family: 'Baloo 2', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .contact-form__terms-link{
@@ -81,6 +86,7 @@
 }
 
 .contact-form__submit {
+    align-self: center;
     Font-family: 'Fredoka', sans-serif;
     text-decoration: none;
     border-radius: 5px;
@@ -91,6 +97,7 @@
     color: #0F1A2B;
     background-color: white;
     transition: 0.3s, color 0.3s;
+    width: 50%;
 }
 
 .contact-form__submit:hover{

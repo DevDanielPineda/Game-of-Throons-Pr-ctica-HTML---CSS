@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
     background-color: #F2F5F7;
 }
 
@@ -9,11 +11,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
-    width: 300px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
     padding: 20px;
-    margin: 20px;
     border: 2px solid #0F1A2B;
     border-radius: 20px;
     background-color: white;
@@ -25,7 +29,8 @@
 }
 
 .personaje-card__img{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border: 1px solid #0F1A2B;
     border-radius: 50px;
 }

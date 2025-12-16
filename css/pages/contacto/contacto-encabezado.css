@@ -2,23 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0F1A2B;
+    gap: 20px;
     padding: 2rem;
+    background-color: #0F1A2B;
 }
 
 .contact-intro__title{
     color: white;
-    margin: 10px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: clamp(30px, 5vw, 50px);
     font-family: 'Caesar Dressing', sans-serif;
-    text-align: center;  
+    text-align: center;
 }
 
 .contact-intro__description{
     color: white;
     font-size: 20px;
-    text-align: start;
     line-height: 1.5;
     font-family: 'Baloo 2', sans-serif;
+    text-align: start;
 }

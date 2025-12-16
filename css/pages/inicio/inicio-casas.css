@@ -17,7 +17,7 @@
 .inicio__houses-title{
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: clamp(30px, 5vw, 50px);
     font-family: 'Caesar Dressing', sans-serif;
     text-align: center;
 }
@@ -34,16 +34,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
+    width: 100%;
 }
 
 .inicio__house-card{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 15px;
-    width: 300px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
     padding: 20px;
-    margin: 20px;
     border: 2px solid #0F1A2B;
     border-radius: 20px;
     background-color: white;
@@ -55,7 +59,8 @@
 }
 
 .inicio__house-img{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border: 1px solid #0F1A2B;
     border-radius: 50px;
 }
@@ -63,6 +68,7 @@
 .inicio__house-title{
     font-weight: bold;
     font-family: 'Caesar Dressing', sans-serif;
+    text-align: center;
 }
 
 .inicio__house-motto{
