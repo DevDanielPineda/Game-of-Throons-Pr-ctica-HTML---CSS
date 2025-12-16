@@ -19,7 +19,8 @@
 }
 
 .house-card:hover{
-    border: 2px solid #493800bb;
+    border: 2px solid #0054d3;
+    transition: 0.3s, color 0.3s;
 }
 
 .house-card__img{
@@ -52,5 +53,5 @@
 }
 
 .house-card__link:hover{
-    background-color: #850000bb;
+    background-color: #013481;
 }

@@ -53,7 +53,8 @@
 }
 
 .inicio__personaje-card:hover{
-    border: 2px solid #493800bb;
+    border: 2px solid #0054d3;
+    transition: 0.3s, color 0.3s;
 }
 
 .inicio__personaje-img{
