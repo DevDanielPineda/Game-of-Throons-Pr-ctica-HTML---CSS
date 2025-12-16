@@ -13,7 +13,8 @@
     margin: 10px;
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Caesar Dressing', sans-serif;  
+    font-family: 'Caesar Dressing', sans-serif;
+    text-align: center;  
 }
 
 .contact-intro__description{

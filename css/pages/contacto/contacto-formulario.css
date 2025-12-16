@@ -12,10 +12,11 @@
     font-weight: bold;
     font-size: 50px;
     font-family: 'Caesar Dressing', sans-serif;  
+    text-align: center;
 }
 
 .contact-form__img{
-    width: 350px;
+    width: 320px;
     border: 5px solid #0F1A2B;
     border-radius: 50px;
 }   
