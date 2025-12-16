@@ -1,0 +1,105 @@
+.inicio__houses-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #0F1A2B;
+    padding: 30px;
+    gap: 30px;
+}
+
+.inicio__houses-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio__houses-title{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Caesar Dressing', sans-serif;
+}
+
+.inicio__houses-description{
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    margin: 10px;
+    text-align: start;
+    line-height: 1.5;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.inicio__houses-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inicio__house-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #0F1A2B;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.inicio__house-card:hover{
+    border: 2px solid #493800bb;
+}
+
+.inicio__house-img{
+    width: 250px;
+    border: 1px solid #0F1A2B;
+    border-radius: 50px;
+}
+
+.inicio__house-title{
+    font-weight: bold;
+    font-family: 'Caesar Dressing', sans-serif;
+}
+
+.inicio__house-motto{
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.inicio__house-link{
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0F1A2B;
+    transition: 0.3s, color 0.3s;
+}
+
+.inicio__house-link:hover{
+    background-color: #013481;
+}
+
+.inicio__houses-link{
+    Font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #0F1A2B;
+    background-color: white;
+    transition: 0.3s, color 0.3s;
+}
+
+.inicio__houses-link:hover{
+    background-color: #f2f2f2bb;
+}
