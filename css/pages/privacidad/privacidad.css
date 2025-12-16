@@ -1,28 +1,19 @@
-.privacy{
+.privacy-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy__block-blue{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #0F1A2B;
-    gap: 10px;
-    padding: 2rem;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    background-image: url('/assets/historia/adicionales/Privacidad.png');
-}
-
-.privacy__block{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid white;
-    border-radius: 30px;
+    padding: 2rem;
 }
 
-.privacy__title{
+.privacy__title-blue{
     color: white;
     margin: 10px;
     font-weight: bold;
@@ -31,7 +22,7 @@
     font-family: 'Caesar Dressing', sans-serif;  
 }
 
-.privacy__subtitle{
+.privacy__subtitle-blue{
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -39,8 +30,42 @@
     font-family: 'Caesar Dressing', sans-serif;  
 }
 
-.privacy__description{
+.privacy__description-blue{
     color: white;
+    font-size: 20px;
+    text-align: start;
+    line-height: 1.5;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.privacy__block-white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f5f7;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.privacy__title-white{
+    color: #0F1A2B;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Caesar Dressing', sans-serif;  
+}
+
+.privacy__subtitle-white{
+    color: #0F1A2B;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Caesar Dressing', sans-serif;  
+}
+
+.privacy__description-white{
+    color: #0F1A2B;
     font-size: 20px;
     text-align: start;
     line-height: 1.5;
