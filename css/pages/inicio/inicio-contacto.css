@@ -18,6 +18,12 @@
     text-align: center; 
 }
 
+.inicio__history-wimg{
+    width: 320px;
+    border: 5px solid #0F1A2B;
+    border-radius: 50px;
+}
+
 .inicio__contact-descripcion{
     color: #0F1A2B;
     font-size: 20px;
