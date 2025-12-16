@@ -1,13 +1,14 @@
 .footer{
     background-color: #111111;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 .footer__container{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
 }
 
 .footer__logo{
@@ -17,7 +18,8 @@
 .footer__nav-list{
     display: flex;
     justify-content: space-around;
-    gap: 4rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .footer__nav-link{
