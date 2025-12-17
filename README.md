@@ -20,14 +20,14 @@ No requiere instalación ni dependencias adicionales.
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/DevDanielPineda/Game-of-Throons-Pr-ctica-HTML---CSS.git
+   git clone https://github.com/DevDanielPineda/Game-of-Throons
    ```
 2. Abre el archivo `index.html` en tu navegador web.
 3. Explora las secciones del reino de Throonia.
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 **Daniel Felipe Pineda G.**  
 🎓 Estudiante de **Desarrollo Web Full Stack**  
 📚 Grupo 4
